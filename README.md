@@ -23,7 +23,7 @@ Designed for:
 | Phase 1 — Orchestration Engine | ✅ Complete | Docker Compose generator, LevelDB store, resource estimator, scenario validator |
 | Phase 2 — SCADA Canvas | ✅ Complete | React Flow canvas, ISA-5.1 device icons, zone regions, drag-drop palette, properties panel |
 | Phase 3 — Container Images | ✅ Complete | All 9 protocol/security/infra Docker images; GitHub Actions CI/CD to GHCR |
-| Phase 4 — PLC IDE | 🔜 Planned | Ladder logic + ST editor, OpenPLC deployment pipeline |
+| Phase 4 — PLC IDE | ✅ Complete | ST editor, SVG ladder viewer, variable bindings, OpenPLC HTTP deploy |
 | Phase 5 — Security Stack UI | 🔜 Planned | Firewall rule editor, Suricata/Zeek alert panel |
 | Phase 6 — Monitoring Panel | 🔜 Planned | Grafana + Loki + InfluxDB embedded dashboards |
 | Phase 7 — HMI | 🔜 Planned | FUXA HMI container + Electron panel + sector templates |
@@ -43,6 +43,7 @@ Designed for:
 | 2026-05-12 | [Phase 1 — Orchestration Engine](entries/2026-05-12-phase-1-orchestration-engine.md) | 1 | Docker Compose generator, 4-zone network model, LevelDB persistence, resource estimation |
 | 2026-05-12 | [Phase 2 — SCADA Canvas](entries/2026-05-12-phase-2-scada-canvas.md) | 2 | React Flow v12, ISA-5.1 inline SVG icons, zone background nodes, drag-drop palette |
 | 2026-05-13 | [Phase 3 — Container Images](entries/2026-05-13-phase-3-container-images.md) | 3 | Pure-Python DNP3 outstation, pymodbus 3.7, Suricata ICS rules, Zeek ICS scripts, GHCR CI/CD |
+| 2026-05-13 | [Phase 4 — PLC IDE](entries/2026-05-13-phase-4-plc-ide.md) | 4 | ST editor, IEC 61131-3 variable bindings, ladder logic SVG, OpenPLC HTTP API deploy, INITIAL_PROGRAM_B64 pre-load |
 
 ---
 
